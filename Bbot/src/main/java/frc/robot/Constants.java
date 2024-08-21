@@ -22,6 +22,14 @@ import edu.wpi.first.math.kinematics.SwerveModuleState;
  */
 public final class Constants {
 
+  public static class CanIDConstants {
+    public static final int kLeftShooterMotor = 10;
+    public static final int kRightShooterMotor = 9;
+    public static final int kFeedMotor = 11;
+    public static final int kIntakeMotor1 = 12;
+    public static final int kIntakeMotor2 = 13; //???
+  }
+
   public static class DriveConstants {
     // Driving Parameters - Note that these are not the maximum capable speeds of
     // the robot, rather the allowed maximum speeds
